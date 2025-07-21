@@ -35,7 +35,7 @@ google-services.json
 *.hprof
 =======
 # Kotlin/IntelliJ
-*.iml
+
 .kotlin
 .gradle
 .idea
@@ -43,14 +43,12 @@ google-services.json
 
 # Android
 **/build/
-local.properties
+
 captures
 .externalNativeBuild
 .cxx
 # Android keystore & config
-*.jks
-*.keystore
-google-services.json
+
 app/google-services.json
 
 # iOS
