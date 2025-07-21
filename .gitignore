@@ -83,7 +83,7 @@ shared/.gradle
 *.p12
 
 # System/General
-*.log
+
 *.tmp
 *.bak
 *.swp
