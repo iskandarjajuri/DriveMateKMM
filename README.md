@@ -1,36 +1,50 @@
-# DriveMateKMM
+# DriveMateKMM 🚗
 
-モバイルドライバー管理アプリ「DriveMate」のKotlinマルチプラットフォームプロジェクトへようこそ！
-
-## 概要
-
-DriveMateKMMは、Android・iOS両対応の**ネイティブUIアプローチ**を採用した次世代ドライバー管理ソリューションです。  
-共通ロジック（ビジネス、API、モデル）はKotlin Multiplatformで開発し、各プラットフォームのUX/UIガイドラインに従ったフルネイティブUIを実装しています。
+Kotlin Multiplatform（KMM）で開発したドライバー管理アプリです。  
+Android（Jetpack Compose）とiOS（SwiftUI）のネイティブUIで動作します。
 
 ---
 
 ## 主な機能
 
-- ドライバー出勤・退勤管理
-- 車両チェックリスト・日次レポート
-- 管理者・ドライバー・エクスパット専用ダッシュボード
-- リアルタイム位置情報トラッキング（開発中）
-- 多言語対応（日本語・インドネシア語・英語）
+- 管理者・ドライバー・エクスパットのログイン
+- ネイティブUIダッシュボード（Android & iOS）
+- 出退勤記録、車両チェックリスト、日次PDFレポート
+- ドライバーのリアルタイム追跡（今後実装予定）
+- タスク通知
 
 ---
 
-## 技術スタック
+## スクリーンショット
 
-- **Kotlin Multiplatform Mobile (KMM)**
-- **Android:** Jetpack Compose
-- **iOS:** SwiftUI
-- **共有ロジック:** リポジトリ、ユースケース、APIクライアント（KMM内）
-- **CI/CD:** GitHub Actions
+<!-- ここにアプリのスクリーンショットを貼り付けてください -->
+<!-- 例: ![Androidダッシュボード](path/to/android-screenshot.png) -->
 
 ---
 
-## 開発環境・セットアップ
+## インストール & 実行方法
 
-1. **クローン**
-   ```bash
-   git clone https://github.com/iskandarjajuri/DriveMateKMM.git
+```bash
+git clone https://github.com/iskandarjajuri/DriveMateKMM.git
+cd DriveMateKMM
+
+	•	Android: androidApp/をAndroid Studioで開いて「Run」
+	•	iOS: iosApp/でpod install実行 → iosApp.xcworkspaceをXcodeで開いて「Run」
+使用例
+val user = UserRepositoryImpl().getUserById("123")
+println(user.name)
+コントリビューション
+
+バグ報告や機能提案はIssueまたはPull Requestでお願いします。
+
+⸻
+
+ライセンス
+
+MIT © 2025 Iskandar Jajuri
+
+⸻
+
+連絡先
+	•	https://www.linkedin.com/in/iskandar-jajuri-7366b911a/
+	•	メール: iskandarjajuri@gmail.com
