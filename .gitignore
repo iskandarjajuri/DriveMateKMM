@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Gradle files
 .gradle/
 build/
@@ -32,3 +33,82 @@ google-services.json
 
 # Android Profiling
 *.hprof
+=======
+# Kotlin/IntelliJ
+*.iml
+.kotlin
+.gradle
+.idea
+.DS_Store
+
+# Android
+**/build/
+local.properties
+captures
+.externalNativeBuild
+.cxx
+# Android keystore & config
+*.jks
+*.keystore
+google-services.json
+app/google-services.json
+
+# iOS
+xcuserdata
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# CocoaPods
+Pods/
+iosApp/Pods/
+Podfile.lock
+iosApp/Podfile.lock
+
+# iOS config
+GoogleService-Info.plist
+iosApp/GoogleService-Info.plist
+
+# KMM Shared
+shared/build
+shared/.gradle
+
+# Env/Sensitive
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.p12
+
+# System/General
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.db
+*.db-journal
+*.sqlite
+
+# IDE Workspace
+workspace.xml
+tasks.xml
+usage.statistics.xml
+
+# Node (jika ada tooling js/ci)
+node_modules/
+npm-debug.log
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Test output
+test-output/
+>>>>>>> d5f7c7d (Initial commit: DriveMateKMM)
